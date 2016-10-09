@@ -1,0 +1,35 @@
+{
+  "name": "babel-plugin-react-if",
+  "version": "1.0.0",
+  "description": "babel-plugin-react-if",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenshan/babel-plugin-react-if.git"
+  },
+  "keywords": [
+    "babel-plugin-react-if"
+  ],
+  "author": "wenshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenshan/babel-plugin-react-if/issues"
+  },
+  "homepage": "https://github.com/wenshan/babel-plugin-react-if#readme",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-jest": "^6.0.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.1.18"
+  },
+  "scripts": {
+    "build": "rm -rf lib &&babel src --out-dir lib --copy-files",
+    "dev": "babel src --out-dir lib --copy-files --watch",
+    "deploy": "tnpm run build && tnpm publish"
+  }
+}
