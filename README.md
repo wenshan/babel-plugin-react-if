@@ -2,7 +2,7 @@
 
 ## usage
 1. `just install @alife/babel-plugin-react-logic-component --dev`
-2. 在你的.babelrc文件(或者webpack babel插件配置)中加入: `plugins: ["@alife/babel-plugin-react-logic-component"]`
+2. 在你的.babelrc文件(或者webpack babel插件配置)中加入: `plugins: ["babel-plugin-react-logic-component"]`
 3. 注意: 此插件须放在`"syntax-jsx", "transform-react-jsx"`插件之前使用
 
 ## 支持标签
